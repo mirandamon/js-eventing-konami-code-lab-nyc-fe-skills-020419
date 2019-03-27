@@ -8,7 +8,7 @@ function init() {
   // 1. We want to show a message if they get the key combo exactly right
   function onKeyDown(event) {
     // did they get the right key code?
-    if (event.keyCode === code[tracker]) {
+    if (event.which === code[tracker]) {
       tracker++ 
     } else {
       // if they get it wrong...
