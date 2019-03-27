@@ -1,8 +1,5 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
-up = 1 
-up = 2 
-d = 3 
 let tracker = 0
 
 function init() {
